@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>What's the Weather?</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <section class="top-area">
+            <form id="search-bar" action="">
+                <input id="search-input" type="text" name="search" placeholder="Search">
+            </form>
+            <div id="snack-bar"></div>
+        </section>
+        <section class="content-box">
+            <div class="first-row">
+                <div class="first-col">
+                    <div class="banner-weather-icon-wrapper">
+                        <img id="banner-weather-icon" src="" alt="">
+                    </div>
+                    <div class="sec-col">
+                        <div class="banner-temp-wrapper">
+                            <h1 id="banner-temp"></h1>
+                        </div>
+                        <div class="additional-info">
+                            <p id="banner-humidity">Humidity: <span></span></p>
+                            <p id="banner-wind-speed">Wind: <span></span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="third-col">
+                    <h3 id="display-city"></h3>
+                    <p id="display-time"></p>
+                    <p id="banner-desc"></p>
+                </div>
+            </div>
+            <div class="chart-area">
+                <div id="chart-wrapper">
+                    <canvas id="line-chart"></canvas>
+                </div>
+            </div>
+            <div class="forecast">
+                <div class="card">
+                    <p class="card-title"></p>
+                    <img src="" alt="" class="card-icon">
+                    <p class="card-temp"><span class="temp-max"></span> <span class="temp-min"></span></p>
+                </div>
+                <div class="card">
+                    <p class="card-title"></p>
+                    <img src="" alt="" class="card-icon">
+                    <p class="card-temp"><span class="temp-max"></span> <span class="temp-min"></span></p>
+                </div>
+                <div class="card">
+                    <p class="card-title"></p>
+                    <img src="" alt="" class="card-icon">
+                    <p class="card-temp"><span class="temp-max"></span> <span class="temp-min"></span></p>
+                </div>
+                <div class="card">
+                    <p class="card-title"></p>
+                    <img src="" alt="" class="card-icon">
+                    <p class="card-temp"><span class="temp-max"></span> <span class="temp-min"></span></p>
+                </div>
+                <div class="card">
+                    <p class="card-title"></p>
+                    <img src="" alt="" class="card-icon">
+                    <p class="card-temp"><span class="temp-max"></span> <span class="temp-min"></span></p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
