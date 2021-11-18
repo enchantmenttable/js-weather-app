@@ -1,6 +1,6 @@
 # js-weather-app
 
-A simple weather app in vanilla JavaScript.
+A simple weather app in JavaScript.
 
 https://user-images.githubusercontent.com/59225760/142429966-19729e19-1bbf-4c3b-85b2-cddb8eb58c86.mp4
 
