@@ -63,7 +63,7 @@ function updateWeatherDisplay(address, cityLat, cityLon) {
     chartWrapper.style.marginLeft = `0px`;
 
     dailyDataHolder = [];
-    const weatherApiKey = "" ; // Your API Key here
+    const weatherApiKey = "" ; // Your API Key here. Get one on: https://openweathermap.org/
     const weatherUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${cityLat}&lon=${cityLon}&appid=${weatherApiKey}&units=metric`;
 
 
